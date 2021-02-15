@@ -7,7 +7,7 @@ create table buildings
     name        varchar(255)
 );
 
-alter table buildings owner to rhlbmescnferpw;
+alter table buildings owner to vczhwbcytissvp;
 
 create table producers
 (
@@ -19,7 +19,7 @@ create table producers
     phone_number varchar(255)
 );
 
-alter table producers owner to rhlbmescnferpw;
+alter table producers owner to vczhwbcytissvp;
 
 create table products
 (
@@ -38,7 +38,7 @@ create table products
             references producers
 );
 
-alter table products owner to rhlbmescnferpw;
+alter table products owner to vczhwbcytissvp;
 
 create table ledgers
 (
@@ -53,7 +53,7 @@ create table ledgers
             references products
 );
 
-alter table ledgers owner to rhlbmescnferpw;
+alter table ledgers owner to vczhwbcytissvp;
 
 create table sellers
 (
@@ -69,5 +69,5 @@ create table sellers
             references buildings
 );
 
-alter table sellers owner to rhlbmescnferpw;
+alter table sellers owner to vczhwbcytissvp;
 
